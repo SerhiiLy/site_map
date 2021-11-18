@@ -14,11 +14,11 @@ def get_hostname(url):
     return hostname
 
 
-def check_url_valid(url):
-    valid = validators.url(url)
-    if valid:
-        return True
-    return False
+# def check_url_valid(url):
+#     valid = validators.url(url)
+#     if valid:
+#         return True
+#     return False
 
 
 def find_links(url):
