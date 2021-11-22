@@ -4,7 +4,26 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
+attrs= "*"
+beautifulsoup4= "*"
+certifi= "*"
+charset-normalizer= "*"
+coverage= "*"
+decorator= "*"
+idna= "*"
+iniconfig= "*"
+packaging= "*"
+pluggy= "*"
+py= "*"
+pyparsing= "*"
+pytest= "*"
+requests= "*"
+six= "*"
+soupsieve= "*"
+structlog= "*"
+toml= "*"
+urllib3= "*"
+validators= "*"
 
 [dev-packages]
 
