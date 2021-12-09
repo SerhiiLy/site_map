@@ -36,11 +36,10 @@ def build(url):
 
     while queue:
         m = queue.pop(0)
-        log.info('m          :', M=m)
-        # print(m)
+        log.info('m:', M=m)
         for neighbour in urls[m]:
-            log.info('urls[m]          :', urls=urls[m])
-            log.info('neighbour          :', neighbour=neighbour)
+            log.info('urls[m]:', urls=urls[m])
+            log.info('neighbour:', neighbour=neighbour)
             if neighbour not in visited:
                 visited.append(neighbour)
                 if validators.url(neighbour):
