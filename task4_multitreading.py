@@ -37,7 +37,7 @@ def build_tree(url):
 
     while queue:
         m = queue.pop(0)
-        log.info('m          :', M=m)
+        log.info('m:', M=m)
         with concurrent.futures.ThreadPoolExecutor() as executor:
             futures = []
             log.info('urls[m]:', urls=urls[m])
